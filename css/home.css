@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav_style {
+    background-color: lightskyblue;
+}
+
+.nav_style a {
+    color: white;
+}
+
+.main_heder {
+    height: 400px;
+    width: 100%;
+}
+
+.rightside h1 {
+    font-size: 3rem;
+}
+
+.about_sen {
+    background-color: grey;
+}
+
+.corona_rot img {
+    animation: go 3s linear infinite;
+}
+
+@keyframes go {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
